@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feliz Año Nuevo</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f0f0f0;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      color: #333;
+    }
+
+    .card {
+      background-color: #fff;
+      width: 80%;
+      max-width: 600px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      text-align: center;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .card::before {
+      content: "🎉";
+      font-size: 60px;
+      position: absolute;
+      top: -50px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    .header {
+      font-size: 2.5em;
+      font-weight: bold;
+      color: #2a9d8f;
+      margin: 20px 0;
+      letter-spacing: 2px;
+    }
+
+    .message {
+      font-size: 1.2em;
+      line-height: 1.6;
+      color: #555;
+      margin: 20px 0;
+    }
+
+    .footer {
+      font-size: 1.1em;
+      color: #2a9d8f;
+      margin-top: 40px;
+      font-weight: bold;
+    }
+
+    .footer span {
+      color: #e76f51;
+    }
+
+    .button {
+      display: inline-block;
+      background-color: #e76f51;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-size: 1.1em;
+      transition: background-color 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: #2a9d8f;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <div class="header">
+      ¡Feliz Año Nuevo!
+    </div>
+    <div class="message">
+      Que este nuevo año te traiga alegría, éxito y momentos inolvidables. ¡Que todos tus sueños se hagan realidad y que cada día esté lleno de felicidad!
+    </div>
+    <div class="footer">
+      Con cariño, <br>
+      <span>Tu nombre aquí</span>
+    </div>
+    <a href="https://www.tunombre.com" class="button">Enviar mis mejores deseos</a>
+  </div>
+
+</body>
+</html>
